@@ -1,0 +1,131 @@
+body{
+  font-family: Arial, sans-serif
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.topbar{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+#topnav1{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+
+}
+#topnav2{
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  align-items: center;
+}
+
+.topnav{
+  margin: 0.5%;
+}
+
+.center{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.center2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding-top: 10px;
+}
+.center3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#search-bar{
+  border-radius: 10px;
+  border: 2px solid #A4A4A4;
+  padding: 10px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+#search-bar:hover{ 
+  cursor: pointer;
+  box-shadow: 0 1px 1px gray;
+}
+
+button{
+  width: 12%;
+  border: none;
+  background-color: rgb(243, 243, 243);
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+
+button:hover{
+  cursor:pointer;
+}
+#signin{
+  border-radius: 10px;
+  background-color: #4285F4;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+#signin:hover{
+  cursor: pointer;
+  box-shadow: 0 1px 1px gray;
+}
+
+#lang{
+  padding-bottom: 200px;
+  font-size: 90%;
+}
+
+#english{
+  font-size: 90%;
+  color: blue;
+}
+
+.country{
+  background-color: rgb(243, 243, 243);
+  margin-top: auto;
+  padding: 0.5px;
+}
+
+.climate{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: rgb(243, 243, 243);
+  padding: 1%;
+}
+
+#botnav{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgb(243, 243, 243);
+}
