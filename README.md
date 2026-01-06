@@ -36,4 +36,4 @@ Clean and simple design inspired by the original Google homepage
 
 This project was created for _The Hacking Project_ 🚀 (peer learning dev school)
 
-Disclaimer: This is just a student project. Google and its logo belong to Google LLC.
+_Disclaimer: This is just a student project. Google and its logo belong to Google LLC._
